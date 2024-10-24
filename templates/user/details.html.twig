@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}Infos de l'utilisateur et de ses possessions
+{% endblock %}
+{# {% block stylesheets %} #}
+
+{# {% endblock %}
+
+{% block javascripts %}
+
+{% endblock %} #}
+
+
+{% block body %}
+
+	<div {{ react_component('UserDetails',{ id: id } ) }}></div>
+{% endblock %}

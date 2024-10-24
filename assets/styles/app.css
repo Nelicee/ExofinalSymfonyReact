@@ -1,0 +1,13 @@
+body {
+    background-color: lightgray;
+}
+
+table th {
+
+    background-color: cyan;
+    color: white;
+}
+
+.custom-header-color {
+    background-color: cyan;
+}
